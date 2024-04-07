@@ -39,11 +39,10 @@ img{
     background-color: rgb(142, 105, 105);
     width: 58%;
     margin-left: 21%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    padding-left: 25%;
+    padding: 1% 20%;
     font-family: Georgia, 'Times New Roman', Times, serif;
     border-radius: 100%;
+    text-align: center;
     
 } 
 #ph{
@@ -52,9 +51,7 @@ img{
     background-color: rgb(104, 198, 151);
     width: 58%;
     margin-left: 21%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    padding-left: 25%;
+    padding: 1% 20%;
     border-radius: 100%;
     
     
@@ -63,12 +60,11 @@ img{
     border: 1px solid blue;
     box-sizing: border-box;
     background-color: blue;
-    padding-top: 1%;
-    padding-bottom: 1%;
+    padding: 1% 20%;
     margin-left: 21%;
     width: 58%;
     border-radius: 100%;
-    padding-left: 25%;
+    
 }
 #ins{
     box-sizing: border-box;
@@ -76,9 +72,7 @@ img{
     background-color: rgb(228, 88, 207);
     width: 58%;
     margin-left: 21%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    padding-left: 25%;
+    padding: 1% 20%;
     font: weight 150px;;
     border-radius: 100%;
     
@@ -89,9 +83,7 @@ img{
     background-color: rgb(67, 94, 231);
     width: 58%;
     margin-left: 21%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    padding-left: 25%;
+    padding: 1% 20%;
     font: weight 150px;;
     border-radius: 100%;
     
@@ -103,6 +95,7 @@ img{
 #gt{
     color: azure;
     text-decoration: none;
+    text-align: center;
 }
 #pn{
     color: rgb(27, 42, 212);
