@@ -11,15 +11,20 @@ margin-left: 40%;
 
 }
 p{
-    margin-left: 37%;
+    margin: 5% 25%;
     color: rgb(96, 171, 228);
     width: 50%;
+    display: flex;
+  text-align: center;
 }
 h2{
-    margin-left: 39%;
+    /* margin-left: 39%; */
+    margin: 0% 25%;
     color: rgb(142, 211, 68);
     width: 54%;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  display: flex;
+  text-align: center;
 }
 img{
     /* height: 300px; */
