@@ -6,29 +6,33 @@ body{
 h1{
 margin-left: 47%;
     margin-top: 0%;
+    width: 15%;
 
 }
 p{
     padding-left: 39%;
     color: rgb(96, 171, 228);
+    width: 27%;
 }
 h2{
     margin-left: 41%;
     color: rgb(142, 211, 68);
+    width: 25%;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 img{
     height: 250px;
     border-radius: 100%;
     box-sizing: border-box;
-    margin-left: 43%; 
+    margin-left: 41%; 
     margin-bottom: 0%;
+    width: 15%;
 }
 #git{
     box-sizing: border-box;
     border: 1px solid rgb(54, 48, 48);
     background-color: rgb(142, 105, 105);
-    width: 400px;
+    width: 27%;
     margin-left: 35%;
     padding-top: 1%;
     padding-bottom: 1%;
@@ -41,7 +45,7 @@ img{
     box-sizing: border-box;
     border: 1px solid rgb(54,48,48);
     background-color: rgb(104, 198, 151);
-    width: 400px;
+    width: 27%;
     margin-left: 35%;
     padding-top: 1%;
     padding-bottom: 1%;
@@ -57,7 +61,7 @@ img{
     padding-top: 1%;
     padding-bottom: 1%;
     margin-left: 35%;
-    width: 400px;
+    width: 27%;
     border-radius: 100%;
     padding-left: 12%;
 }
@@ -65,7 +69,7 @@ img{
     box-sizing: border-box;
     border: 1px solid rgb(54, 48, 48);
     background-color: rgb(228, 88, 207);
-    width: 400px;
+    width: 27%;
     margin-left: 35%;
     padding-top: 1%;
     padding-bottom: 1%;
@@ -78,7 +82,7 @@ img{
     box-sizing: border-box;
     border: 1px solid rgb(54, 48, 48);
     background-color: rgb(67, 94, 231);
-    width: 400px;
+    width: 27%;
     margin-left: 35%;
     padding-top: 1%;
     padding-bottom: 1%;
@@ -113,7 +117,7 @@ img{
     box-sizing: border-box;
     border: 1px solid rgb(54, 48, 48);
     background-color: rgb(88, 160, 228);
-    width: 400px;
+    width: 27%;
     margin-left: 35%;
     padding-top: 1%;
     padding-bottom: 1%;
