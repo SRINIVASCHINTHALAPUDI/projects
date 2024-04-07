@@ -117,9 +117,7 @@ img{
     background-color: rgb(88, 160, 228);
     width: 58%;
     margin-left: 21%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    padding-left: 25%;
+    padding: 1% 20%;
     font: weight 150px;;
     border-radius: 100%;
     
