@@ -1,0 +1,85 @@
+body{
+    background-color: blueviolet;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    border: 1px solid blueviolet;
+    background-color: white;
+    margin: 10px;
+    border-radius: 100%;
+
+}
+.main
+{
+    display: flex;
+    justify-content: space-between;
+}
+.box1{
+    background-color: rgb(88, 212, 76);
+    animation: fall-down1 5s linear 1s infinite alternate;
+    animation-fill-mode: both;
+    height: 200px;
+    width: 200px;
+
+}
+.BOX2
+{
+    background-color: rgb(198, 228, 120);
+    animation: fall-down2 5s linear 1s infinite alternate;
+    animation-fill-mode: both; 
+}
+@keyframes fall-down1 {
+    0%{
+        position: relative;
+        top: 0vh;
+    }
+    25%{
+        background-color: rgb(209, 72, 143);
+    }
+    35%{
+        background-color: crimson;
+    }
+    50%{
+        background-color: rgb(61, 208, 110);
+    }
+    75%{
+        background-color: rgb(171, 207, 92);
+    }
+    99%{
+        position: relative;
+        transform: translateX(650px);
+        background-color: blueviolet;
+    }
+    100%{
+        position: relative;
+        top: 90vw;
+    }
+}
+@keyframes fall-down2 {
+    0%{
+        position: relative;
+        top: 0vh;
+    }
+    25%{
+        background-color: cornflowerblue;
+    }
+    35%{
+        background-color: crimson;
+    }
+    50%{
+        background-color: rgb(61, 208, 110);
+    }
+    75%{
+        background-color: darkorange;
+    }
+    99%{
+        position: relative;
+        transform: translateX(-650px);
+        background-color: blueviolet;
+    }
+    100%{
+        position: relative;
+        top: 90vw;
+    }
+}
