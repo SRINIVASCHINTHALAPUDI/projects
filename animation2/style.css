@@ -1,3 +1,12 @@
+@media screen and (max-width 450px){
+    .main{
+        width: 450px;
+        height: 600px;
+    }
+    
+} 
+    
+
 body{
     background-color: blueviolet;
 }
@@ -12,6 +21,8 @@ body{
 }
 .main
 {
+    height: 600px;
+    width: 450px;
     display: flex;
     justify-content: space-between;
 }
@@ -48,7 +59,7 @@ body{
     }
     99%{
         position: relative;
-        transform: translateX(650px);
+        transform: translateX(450px);
         background-color: blueviolet;
     }
     100%{
@@ -63,23 +74,28 @@ body{
     }
     25%{
         background-color: cornflowerblue;
+        transform: translateX(-450px);
     }
     35%{
         background-color: crimson;
+        transform: translateX(450px);
     }
     50%{
         background-color: rgb(61, 208, 110);
+        transform: translateX(50px);
     }
     75%{
         background-color: darkorange;
+        transform: translateX(-450px);
     }
     99%{
         position: relative;
-        transform: translateX(-650px);
         background-color: blueviolet;
+        transform: translateX(450px);
     }
     100%{
         position: relative;
-        top: 90vw;
+        top: 90vh;
+        transform: translateX(-450px);
     }
 }
