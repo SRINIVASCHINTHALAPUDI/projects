@@ -1,13 +1,14 @@
-@media screen  {
+ 
     
 body{
     background-color: black;
     color: azure;
 }
 h1{
-margin-left: 40%;
+margin-left: 43%;
     margin-top: 0%;
     width: 20%;
+    
 
 }
 p{
@@ -32,6 +33,7 @@ img{
     box-sizing: border-box;
     margin-left: 37.5%; 
     width: 25%;
+    position: static;
 }
 #git{
     box-sizing: border-box;
@@ -126,4 +128,70 @@ img{
     color: rgb(124, 44, 15);
     text-decoration: none;
 }
+@media screen and (min-width:760px) and (max-width:1020px) {
+    section{
+        margin-left: 5%;
+        font-size: larger;
+    }
+    #dimg{
+        margin-right:5%;
+    }
+    p{
+        font-size: x-large;
+        margin-left: 22%;
+    }
+   #pn{
+    margin-left: 5%;
+   }
+    
+    a{
+        margin-left: 20%;
+    }
+    
+}
+@media screen and (min-width:1022px) {
+    section{
+        margin-left: 7%;
+        font-size: xx-large;
+    }
+    h2{
+        margin-left: 22%;
+    }
+    p{
+        margin-left: 23%;
+    }
+    a{
+        margin-left: 25%;
+        font-size: xx-large;
+    }
+    #pn{
+        margin-left: 10%;
+    }
+    h1{
+        margin-left: 40%;
+    }
+    
+    }
+    @media screen and (min-width:1400px){
+        h2{
+            margin-left: 28%;
+        }
+        section{
+            margin-left: 8%;
+            font-size: xx-large
+        }
+        p{
+            font-size: xx-large;
+            margin-left: 24%;
+        }
+        a{
+            margin-left: 25%;
+        }
+        #pn{
+            margin-left:5% ;
+        }
+    
+        
+    }
+    
 }

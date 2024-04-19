@@ -1,0 +1,38 @@
+body{
+    background-color: aqua;
+}
+.project{
+    border: 2px double black;
+    height: 650px;
+    width: 700px;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    
+    
+}
+.card{
+    border: 3px solid blue;
+    height: 300px;
+    width: 210px;
+    background-color:blueviolet;
+    margin: 10px;
+}
+.frame{
+    border: 5px solid red;
+    height: 240px;
+    width: 157.5px;
+    margin: 10px 22px;
+    background-color:beige;
+}
+.frame:hover{
+    height: 300px;
+    width: 210px;
+    background-color: blue;
+    box-sizing: border-box;
+    align-items: center;
+    scroll-behavior: smooth;
+                               
+}
+
+                         
+        
