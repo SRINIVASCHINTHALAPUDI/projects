@@ -1,0 +1,25 @@
+body{
+   
+   background: radial-gradient(rgb(132, 201, 220),blue,black);
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   flex-direction: column;
+   gap: 30px;
+   
+   
+button{
+    background-color: transparent;
+    border: transparent;
+    
+
+}
+a{
+    color: rgb(152, 58, 77);
+    font-size: xx-large;
+    text-decoration: none;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
