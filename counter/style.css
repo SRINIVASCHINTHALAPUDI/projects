@@ -1,0 +1,72 @@
+body{
+    background-image: url(https://i1.wp.com/tradewindstackle.com/wp-content/uploads/2016/08/blue-gradient-web-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#counter{
+    background: linear-gradient(rgb(55, 199, 180),rgb(207, 85, 205));;
+    background-size: cover;
+    height: 50vh;
+    width: 50vh;
+display: flex;
+justify-content: center;
+align-items: center;
+margin:20% 35% 20% 35%;
+flex-direction: column;
+box-sizing: border-box;
+box-shadow: 10px 5px 10px rgb(29, 31, 29);
+
+
+
+
+}
+p{
+    font-size: xx-large;
+}
+button{
+    padding: 10px 20px;
+    background: linear-gradient(rgb(207, 85, 205),rgb(45, 184, 165));;
+    color: bisque;
+    font-size: medium;
+    border-radius: 30%;
+    border: transparent;
+    
+
+}
+    
+
+.nt{
+    text-align: center;
+    width: 80px;
+    float: right;
+    background:  linear-gradient(rgb(45, 184, 165),rgb(206, 108, 204));;
+    border-radius: 25%;
+   
+    color: blue;
+    font-size: xx-large;
+}
+button:hover{
+    color: rgb(32, 19, 219);
+    background: linear-gradient(rgb(45, 184, 165),rgb(207, 85, 205));
+  
+    
+}
+#counter:hover{
+    background: linear-gradient(rgb(45, 184, 165),rgb(207, 85, 205));
+    box-shadow: 10px rgb(99, 165, 218)
+   
+}
+body:hover{
+    background-color: cyan;
+}
+hr{
+   
+    border: 2px solid rgb(51, 83, 241);
+    width: 300px;
+}
+
+
+    
+
+    
