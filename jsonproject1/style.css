@@ -1,12 +1,13 @@
 .image{
-    height: 150px;
-    width: 350px;
+    height: 250px;
+    width: 398px;
     box-sizing: border-box;
-    padding: 0px 80px;
+    
+    
 }
 #main{
     display:grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(4,1fr);
     gap: 10px;
     
     
