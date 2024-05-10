@@ -1,6 +1,6 @@
 .image{
     height: 250px;
-    width: 398px;
+    width: 399px;
     box-sizing: border-box;
     
     
@@ -35,4 +35,15 @@ button{
 }
 h2{
     color: brown;
+}
+@media screen and (max-width:480px) {
+    #main{
+        display: flex;
+        flex-direction: column;
+    }
+}
+.receipe:hover{
+    background-color: rgb(110, 216, 211);
+    transform: scale(1.02);
+    transition: all 2s ease;
 }

@@ -29,13 +29,13 @@ function displaydata(data)
       dislike.textContent = 'unlike'
       const count = document.createElement('p')
       count.classList.add('cn')
-      count.textContent = '0'+'  '+ 'likes'
+      count.textContent = ''
      
       let countvalue = 0;
       like.addEventListener("click",function cou(){
         if (countvalue < 1){
           countvalue++;
-          count.textContent = countvalue +'  '+'like'
+          count.textContent ='liked'
         }
        
         
@@ -43,7 +43,7 @@ function displaydata(data)
       dislike.addEventListener("click",function coun(){
         if (countvalue > 0){
           countvalue--;
-          count.textContent = countvalue +'  ' +'like'
+          count.textContent = ''
         }
       });
        receipe.append(image,title,sn,rt,like,dislike,count)
