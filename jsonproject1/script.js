@@ -22,19 +22,31 @@ function displaydata(data)
       const sn = document.createElement('ol')    
       sn.textContent = r.ingredients;
       const rt = document.createElement('p') 
-      rt.textContent = 'rating   '+r.rating;
+      rt.textContent = 'rating   '+r.rating
       const like = document.createElement('button')
-      like.classList.add('like')
       like.textContent = 'like'
-      const count = document.createElement('h2')
-      count.textContent = '0'+'K'
-      like.addEventListener("click",function(){
-      let currentCount = parseInt(count.textContent);
-      currentCount++;
-      count.textContent = currentCount + 'k'
+      const dislike = document.createElement('button')
+      dislike.textContent = 'unlike'
+      const count = document.createElement('p')
+      count.classList.add('cn')
+      count.textContent = '0'+'  '+ 'likes'
      
-    });
-       receipe.append(image,title,sn,rt,like,count)
+      let countvalue = 0;
+      like.addEventListener("click",function cou(){
+        if (countvalue < 1){
+          countvalue++;
+          count.textContent = countvalue +'  '+'like'
+        }
+       
+        
+      })
+      dislike.addEventListener("click",function coun(){
+        if (countvalue > 0){
+          countvalue--;
+          count.textContent = countvalue +'  ' +'like'
+        }
+      });
+       receipe.append(image,title,sn,rt,like,dislike,count)
        mainDiv.appendChild(receipe)
    });
 }
