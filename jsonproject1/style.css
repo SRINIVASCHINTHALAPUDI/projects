@@ -24,5 +24,14 @@ p{
     color: brown;
     font-weight: bold;
     margin-left: 10px;
-    
+
+}
+button{
+    background: linear-gradient(pink,red);
+    border-radius: 40%;
+    border: transparent;
+    margin-left: 10px;
+}
+h2{
+    color: brown;
 }
