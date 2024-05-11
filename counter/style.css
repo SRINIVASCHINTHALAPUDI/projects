@@ -12,7 +12,7 @@ body{
 display: flex;
 justify-content: center;
 align-items: center;
-margin:20% 35% 20% 35%;
+margin:250px 300px;
 flex-direction: column;
 box-sizing: border-box;
 box-shadow: 10px 5px 10px rgb(29, 31, 29);
@@ -65,6 +65,20 @@ hr{
     border: 2px solid rgb(51, 83, 241);
     width: 300px;
 }
+@media screen and (max-width:780px) {
+   #counter{
+    margin: 200px 200px;
+   }
+   @media screen and (max-width:480px) {
+    #counter{
+     margin: 150px 35px;
+    }
+    
+}
+@media screen and (max-width:325px) {
+    #counter{
+     margin: 100px 1px;
+    }
 
 
     

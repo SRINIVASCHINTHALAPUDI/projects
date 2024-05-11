@@ -36,6 +36,7 @@ function displaydata(data)
         if (countvalue < 1){
           countvalue++;
           count.textContent ='liked'
+          alert('liked')
         }
        
         
